@@ -1,0 +1,193 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.header_section {
+    margin-top: 16px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.submain-section {
+    margin-top: 10px;
+}
+
+.logo_unne {
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    background-color: #333;
+    width: 200px;
+    height: 63px;
+    margin-right: 7.5px
+}
+
+.logo_facena {
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    background-color: #333;
+    margin-left: 7.5px;
+}
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+/* ------------- AQUI LO RELACIONADO A LOS MODULOS ------------- */
+
+/* para ocultar secciones */
+.container-modulos {
+    display: none;
+}
+
+/* para el enlace activo del menú */
+.menu .active {
+    background-color: #404cef; /* Cambia el color del enlace cuando está activo */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-modulos {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.subcontainer-modulos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teoricos {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-titulos {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li h3 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+li span {
+    font-size: 0.9em;
+    color: #777;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*------------- Estilos responsivos -------------*/
+@media (max-width: 768px) {
+    .subcontainer-modulos {
+        flex-direction: column;
+    }
+}
+
+/* ------------- FOOTER -------------*/
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #fff;
+}
+
+.footer .contact h2,
+.footer .contact p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.footer .logo img {
+    max-height: 50px; /* ajustar el tamaño de las imágenes según sea necesario */
+}
+
+.site-info {
+    margin-top: 20px;
+}
+
+.site-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-info a:hover {
+    text-decoration: underline;
+}
+
+
+/*
+.container-modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subcontainer-modulos {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-titulos {
+    color: #333;
+    padding: 10px
+}
+*/
