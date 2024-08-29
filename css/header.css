@@ -5,9 +5,16 @@ header {
     padding: 0 0 10px 0;
 }
 
-.logo_header {
+.logo_header_facena {
     background-color: #cf2e2e;
     border-radius: 5px;
+}
+
+.logo_header_unne {
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin: 18px 10px;
 }
 
 nav {
