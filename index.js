@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // pestañas de navegación
 function openModule(evt, moduleName) {
-  // Ocultar todos los módulos
+  // ocultar todos los módulos
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("container-modulos");
   for (i = 0; i < tabcontent.length; i++) {
@@ -28,7 +28,9 @@ function openModule(evt, moduleName) {
   evt.currentTarget.className += " active";
 }
 
-// mostrar el primer módulo por defecto al cargar la página
+// mostrar el módulo 3 por defecto al cargar la página
 document.addEventListener("DOMContentLoaded", function() {
-  document.querySelector(".menu a[onclick]").click();
+  // seleccionar el enlace del módulo de interes
+  document.querySelector(".menu a[onclick*='modulo_3']").click();
 });
+

@@ -1,26 +1,44 @@
 /* ------------- generales ------------- */
 header {
-    background-color: #333;
+    /*background-color: #cf2e2e;*/
+    background-color: #692929;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo_header_facena img,
+  .logo_header_unne img {
+    max-height: 60px;
+    width: auto;
+  }
+  
+  .header-text {
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .header-text h1 {
     color: #fff;
-    padding: 0 0 10px 0;
-}
-
-.logo_header_facena {
-    background-color: #cf2e2e;
-    border-radius: 5px;
-}
-
-.logo_header_unne {
-    position:absolute;
-    top: 0;
-    right: 0;
-    margin: 18px 10px;
-}
+    font-size: 24px;
+    margin: 0;
+    padding: 5px 10px;
+    /*background-color: rgba(0, 0, 0, 0.2);*/
+    border-radius: 10px;
+    display: inline-block;
+  }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: #333;
+    background-color: #856d16;
     padding: 10px;
 
 }
