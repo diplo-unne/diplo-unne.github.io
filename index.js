@@ -31,6 +31,6 @@ function openModule(evt, moduleName) {
 // mostrar el módulo 3 por defecto al cargar la página
 document.addEventListener("DOMContentLoaded", function() {
   // seleccionar el enlace del módulo de interes
-  document.querySelector(".menu a[onclick*='modulo_3']").click();
+  document.querySelector(".menu a[onclick*='modulo_5']").click();
 });
 
